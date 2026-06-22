@@ -94,6 +94,7 @@ App runs at `http://localhost:5173`
 ---
 
 ## 📁 Project Structure
+
 vibio/
 
 ├── backend/
@@ -119,6 +120,7 @@ vibio/
 │   └── index.html
 
 └── package.json
+
 ---
 
 ## 👩‍💻 Author
