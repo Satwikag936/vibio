@@ -1,0 +1,81 @@
+/* Container */
+.create-channel-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.create-channel-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 25px;
+}
+
+/* Form */
+.create-channel-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Inputs and Textarea */
+.create-channel-form input[type="text"],
+.create-channel-form textarea,
+.create-channel-form input[type="file"] {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.create-channel-form input[type="text"]:focus,
+.create-channel-form textarea:focus,
+.create-channel-form input[type="file"]:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+  outline: none;
+}
+
+.create-channel-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* File input customization */
+.create-channel-form input[type="file"] {
+  padding: 6px 12px;
+}
+
+/* Button */
+.create-channel-form button {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.create-channel-form button:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+}
+
+/* Message */
+.upload-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #374151;
+}

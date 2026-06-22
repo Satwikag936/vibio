@@ -1,0 +1,88 @@
+/* ===== Body & Full Screen Centering ===== */
+body {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  min-height: 100vh;       /* full viewport height */
+  background: #f0f0f0;    /* optional background */
+  margin: 0;               /* reset default margin */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Container ===== */
+div.p-6 {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Heading ===== */
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* ===== Form ===== */
+form.max-w-lg {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ===== Inputs and Textarea ===== */
+input.input,
+textarea.input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input.input:focus,
+textarea.input:focus {
+  border-color: #3b82f6; /* blue focus */
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+}
+
+/* ===== File Input ===== */
+input[type="file"] {
+  padding: 6px 10px;
+  font-size: 0.95rem;
+}
+
+/* ===== Button ===== */
+button {
+  background-color: #10b981; /* green */
+  color: #fff;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #059669;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  div.p-6 {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,90 @@
+/* Make container take the full screen */
+.landing-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1d4ed8, #9333ea);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Big stylized V logo */
+.landing-logo {
+  width: 140px;
+  height: 140px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.landing-v {
+  font-size: 80px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Main title */
+.landing-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* Subtitle */
+.landing-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+/* Buttons container */
+.landing-buttons {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Buttons */
+.landing-btn {
+  display: inline-block;
+  padding: 0.8rem 2.2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Sign Up button style */
+.landing-btn.signup {
+  background-color: #fff;
+  color: #1d4ed8;
+}
+.landing-btn.signup:hover {
+  background-color: #f3f4f6;
+  transform: translateY(-2px);
+}
+
+/* Login button style */
+.landing-btn.login {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.landing-btn.login:hover {
+  background-color: rgba(255,255,255,0.1);
+  transform: translateY(-2px);
+}
