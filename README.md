@@ -94,6 +94,31 @@ App runs at `http://localhost:5173`
 ---
 
 ## 📁 Project Structure
+vibio/
+
+├── backend/
+
+│   ├── models/          # User, Channel, Video, VideoStats schemas
+
+│   ├── routes/          # auth, videos, channels, videostats
+
+│   ├── middleware/       # JWT auth middleware
+
+│   └── server.js        # Express entry point
+
+├── frontend/
+
+│   ├── src/
+
+│   │   ├── pages/       # Home, Watch, Upload, Login, Signup
+
+│   │   ├── components/  # Navbar
+
+│   │   └── utils/       # PrivateRoute, CSS
+
+│   └── index.html
+
+└── package.json
 ---
 
 ## 👩‍💻 Author
